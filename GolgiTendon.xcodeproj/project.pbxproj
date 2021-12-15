@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		6A6596F01EAE4204A38D21ED /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AA851C19A6B5425EAEF50FBC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				4F3A8DEFA7D04882AC12ED60 /* CMake Rules */,
+			);
+			dependencies = (
+				622F5691D056479EA10264D8 /* PBXTargetDependency */,
+				9C705976E35B4A2D9D900826 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		925B608E0B7947959C8D7842 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FB0D6E81B23543DCB2D82B8F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				7DE25E6729294FC3B66E2CB0 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08F02273C09A473FA6B7AF95 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FC67BBD15F654BC282B7FB23 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/CMakeLists.txt */; };
+		0F3D1F8FAB324C53B04BCFA3 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/GolgiTendon.cpp */ = {isa = PBXBuildFile; fileRef = 1AE7F6270EB041B6A72017F2 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/GolgiTendon.cpp */; };
+		543A4021577340A9B6CA095E /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/osimGolgiTendonDLL.h */ = {isa = PBXBuildFile; fileRef = 55E02089F5AE4369A305BAE1 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/osimGolgiTendonDLL.h */; };
+		7FE617D7458E4D189BB702C0 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/GolgiTendon.h */ = {isa = PBXBuildFile; fileRef = 4BA29F15DBA74D22B63C8006 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/GolgiTendon.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		A334CF7C07C84D29BAF8947D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		A49E4A49CF10463D8DC03266 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		E69AEE8C7F164C4AA59A0936 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F663E658DED545B588D97C1E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		36436A8D9DCB45E387EB0186 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9CE61746548434E9EF23560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925B608E0B7947959C8D7842;
+			remoteInfo = ZERO_CHECK;
+		};
+		64ED73F240A14042BC1C6DE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9CE61746548434E9EF23560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7FDA10FC14148C0A066CB19;
+			remoteInfo = GolgiTendon;
+		};
+		A5F2A2838E35467F9DBB1030 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F9CE61746548434E9EF23560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925B608E0B7947959C8D7842;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AE7F6270EB041B6A72017F2 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/GolgiTendon.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GolgiTendon.cpp; path = GolgiTendon.cpp; sourceTree = SOURCE_ROOT; };
+		4BA29F15DBA74D22B63C8006 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/GolgiTendon.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = GolgiTendon.h; path = GolgiTendon.h; sourceTree = SOURCE_ROOT; };
+		5417E3A392674925A77B4BFC /* GolgiTendon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = GolgiTendon; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E02089F5AE4369A305BAE1 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/osimGolgiTendonDLL.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = osimGolgiTendonDLL.h; path = osimGolgiTendonDLL.h; sourceTree = SOURCE_ROOT; };
+		A47B94F36DD6449AA49948F5 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FC67BBD15F654BC282B7FB23 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B94FA66B0DA14B8FACD4EDC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BDCB4C4413D4EB8BD77A3B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5417E3A392674925A77B4BFC /* GolgiTendon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20AC6DE31B004196B2417DDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C64236368444547A40DB2BF /* GolgiTendon */ = {
+			isa = PBXGroup;
+			children = (
+				DB6BB2DA4E504143B7AD79DC /* Source Files */,
+				9D0F42162D9945929B330724 /* Header Files */,
+				FC67BBD15F654BC282B7FB23 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/CMakeLists.txt */,
+			);
+			name = GolgiTendon;
+			sourceTree = "<group>";
+		};
+		8DE3FD27D4204784B80D4363 = {
+			isa = PBXGroup;
+			children = (
+				5C64236368444547A40DB2BF /* GolgiTendon */,
+				A24601C2EB4841DB954E37BC /* ALL_BUILD */,
+				1BDCB4C4413D4EB8BD77A3B5 /* Products */,
+				20AC6DE31B004196B2417DDD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D0F42162D9945929B330724 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BA29F15DBA74D22B63C8006 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/GolgiTendon.h */,
+				55E02089F5AE4369A305BAE1 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/osimGolgiTendonDLL.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A24601C2EB4841DB954E37BC /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				E2177082E53A43989D883D38 /* CMake Rules */,
+				A47B94F36DD6449AA49948F5 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		DB6BB2DA4E504143B7AD79DC /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AE7F6270EB041B6A72017F2 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/GolgiTendon.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E2177082E53A43989D883D38 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7FDA10FC14148C0A066CB19 /* GolgiTendon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC231E8FE5EF4A1C912EBA0C /* Build configuration list for PBXNativeTarget "GolgiTendon" */;
+			buildPhases = (
+				F2DE84B1C4F94F54BDBEDF50 /* Sources */,
+				B94FA66B0DA14B8FACD4EDC0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE89A00C779544A7A3293081 /* PBXTargetDependency */,
+			);
+			name = GolgiTendon;
+			productName = GolgiTendon;
+			productReference = 5417E3A392674925A77B4BFC /* GolgiTendon */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9CE61746548434E9EF23560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1130;
+			};
+			buildConfigurationList = E41E8B72BA2642589D5F4F00 /* Build configuration list for PBXProject "GolgiTendon" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E69AEE8C7F164C4AA59A0936 /* Debug */,
+				A334CF7C07C84D29BAF8947D /* Release */,
+				F663E658DED545B588D97C1E /* MinSizeRel */,
+				A49E4A49CF10463D8DC03266 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 8DE3FD27D4204784B80D4363;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				6A6596F01EAE4204A38D21ED /* ALL_BUILD */,
+				C7FDA10FC14148C0A066CB19 /* GolgiTendon */,
+				925B608E0B7947959C8D7842 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4F3A8DEFA7D04882AC12ED60 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon -f /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		7DE25E6729294FC3B66E2CB0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon -f /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2DE84B1C4F94F54BDBEDF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3D1F8FAB324C53B04BCFA3 /* /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/GolgiTendon.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		622F5691D056479EA10264D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925B608E0B7947959C8D7842 /* ZERO_CHECK */;
+			targetProxy = 36436A8D9DCB45E387EB0186 /* PBXContainerItemProxy */;
+		};
+		9C705976E35B4A2D9D900826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7FDA10FC14148C0A066CB19 /* GolgiTendon */;
+			targetProxy = 64ED73F240A14042BC1C6DE9 /* PBXContainerItemProxy */;
+		};
+		CE89A00C779544A7A3293081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925B608E0B7947959C8D7842 /* ZERO_CHECK */;
+			targetProxy = A5F2A2838E35467F9DBB1030 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05334E77BAB949319A2B56A0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/build;
+			};
+			name = MinSizeRel;
+		};
+		0D0DD13FCEAA4A0E859CBE81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		19B72F15365A4CBE8619E78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,OPENSIM_WITH_CASADI,OPENSIM_WITH_TROPTER,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/lib\" \"/Applications/OpenSim 4.3/sdk/Simbody/lib\"","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Applications/OpenSim 4.3/sdk/lib/libosimExampleComponents.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimMoco.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimTools.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimAnalyses.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimActuators.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimSimulation.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimCommon.dylib\"","\"/Applications/OpenSim 4.3/sdk/spdlog/lib/spdlog/libspdlog.a\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKsimbody.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKmath.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKcommon.3.8.dylib\"","-framework Accelerate","-lm","-ldl","-ldl","-lm","\"/Applications/OpenSim 4.3/sdk/lib/libosimLepton.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GolgiTendon;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon;
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/include\"","\"/Applications/OpenSim 4.3/sdk/include/OpenSim\"","\"/Applications/OpenSim 4.3/sdk/Simbody/include/simbody\"","\"/Applications/OpenSim 4.3/sdk/spdlog/include\"","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		1B2FC7F1406F4E0BBCB2AC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		308E1A480DEE4D7D8D8676F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4C36958449DA46ADBFE9648E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		522EEC28D73F4E9194059213 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,OPENSIM_WITH_CASADI,OPENSIM_WITH_TROPTER,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/lib\" \"/Applications/OpenSim 4.3/sdk/Simbody/lib\"","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Applications/OpenSim 4.3/sdk/lib/libosimExampleComponents.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimMoco.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimTools.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimAnalyses.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimActuators.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimSimulation.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimCommon.dylib\"","\"/Applications/OpenSim 4.3/sdk/spdlog/lib/spdlog/libspdlog.a\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKsimbody.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKmath.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKcommon.3.8.dylib\"","-framework Accelerate","-lm","-ldl","-ldl","-lm","\"/Applications/OpenSim 4.3/sdk/lib/libosimLepton.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GolgiTendon;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon;
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/include\"","\"/Applications/OpenSim 4.3/sdk/include/OpenSim\"","\"/Applications/OpenSim 4.3/sdk/Simbody/include/simbody\"","\"/Applications/OpenSim 4.3/sdk/spdlog/include\"","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		743CD572366048028B1AACE9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		801EEF2DB36C420D913A0B20 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,OPENSIM_WITH_CASADI,OPENSIM_WITH_TROPTER,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/lib\" \"/Applications/OpenSim 4.3/sdk/Simbody/lib\"","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Applications/OpenSim 4.3/sdk/lib/libosimExampleComponents.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimMoco.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimTools.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimAnalyses.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimActuators.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimSimulation.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimCommon.dylib\"","\"/Applications/OpenSim 4.3/sdk/spdlog/lib/spdlog/libspdlog.a\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKsimbody.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKmath.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKcommon.3.8.dylib\"","-framework Accelerate","-lm","-ldl","-ldl","-lm","\"/Applications/OpenSim 4.3/sdk/lib/libosimLepton.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GolgiTendon;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon;
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/include\"","\"/Applications/OpenSim 4.3/sdk/include/OpenSim\"","\"/Applications/OpenSim 4.3/sdk/Simbody/include/simbody\"","\"/Applications/OpenSim 4.3/sdk/spdlog/include\"","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		CD8573C81E864C91BB7E76A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/build;
+			};
+			name = Debug;
+		};
+		D3C4D8A6D13B4D499137A780 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D9B0864B8D1042DE8837FC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/build;
+			};
+			name = Release;
+		};
+		E9256ACAE8DA44CEBEC4682D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon/build;
+			};
+			name = RelWithDebInfo;
+		};
+		F4CC568F2B89430697E61157 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode_12.4.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks,"$(inherited)");
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",SPDLOG_COMPILED_LIB,OPENSIM_WITH_CASADI,OPENSIM_WITH_TROPTER,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/lib\" \"/Applications/OpenSim 4.3/sdk/Simbody/lib\"","$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++11' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","\"/Applications/OpenSim 4.3/sdk/lib/libosimExampleComponents.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimMoco.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimTools.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimAnalyses.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimActuators.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimSimulation.dylib\"","\"/Applications/OpenSim 4.3/sdk/lib/libosimCommon.dylib\"","\"/Applications/OpenSim 4.3/sdk/spdlog/lib/spdlog/libspdlog.a\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKsimbody.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKmath.3.8.dylib\"","\"/Applications/OpenSim 4.3/sdk/Simbody/lib/libSimTKcommon.3.8.dylib\"","-framework Accelerate","-lm","-ldl","-ldl","-lm","\"/Applications/OpenSim 4.3/sdk/lib/libosimLepton.dylib\"","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GolgiTendon;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon;
+				SYSTEM_HEADER_SEARCH_PATHS = ("\"/Applications/OpenSim 4.3/sdk/include\"","\"/Applications/OpenSim 4.3/sdk/include/OpenSim\"","\"/Applications/OpenSim 4.3/sdk/Simbody/include/simbody\"","\"/Applications/OpenSim 4.3/sdk/spdlog/include\"","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FC72CB0B3965474AAB9C092E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		FEE3986F331D44AA898EB3B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/hjaltihilmarsson/Documents/OpenSim/4.3/Code/CPP/GolgiTendon;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA851C19A6B5425EAEF50FBC /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0DD13FCEAA4A0E859CBE81 /* Debug */,
+				308E1A480DEE4D7D8D8676F0 /* Release */,
+				743CD572366048028B1AACE9 /* MinSizeRel */,
+				FC72CB0B3965474AAB9C092E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E41E8B72BA2642589D5F4F00 /* Build configuration list for PBXProject "GolgiTendon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8573C81E864C91BB7E76A3 /* Debug */,
+				D9B0864B8D1042DE8837FC0D /* Release */,
+				05334E77BAB949319A2B56A0 /* MinSizeRel */,
+				E9256ACAE8DA44CEBEC4682D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FB0D6E81B23543DCB2D82B8F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2FC7F1406F4E0BBCB2AC57 /* Debug */,
+				FEE3986F331D44AA898EB3B3 /* Release */,
+				4C36958449DA46ADBFE9648E /* MinSizeRel */,
+				D3C4D8A6D13B4D499137A780 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FC231E8FE5EF4A1C912EBA0C /* Build configuration list for PBXNativeTarget "GolgiTendon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B72F15365A4CBE8619E78D /* Debug */,
+				522EEC28D73F4E9194059213 /* Release */,
+				801EEF2DB36C420D913A0B20 /* MinSizeRel */,
+				F4CC568F2B89430697E61157 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9CE61746548434E9EF23560 /* Project object */;
+}
