@@ -116,14 +116,20 @@ const Muscle& GolgiTendon::getMuscle() const
  * @param s         current state of the system
  */
 
-double GolgiTendon::getSpeed(const SimTK::State& s) const
+double GolgiTendon::getTLength(const SimTK::State& s) const
 {
-    double speed = 0;
+    double length = 0;
+    double tendon_length = 0;
+    double tendon_slack_length = 0;
     
     const Muscle& musc = getMuscle();
     
-    speed = musc.getLengtheningSpeed(s);
+    tendon_length = musc.getTendonLength(s);
+    tendon_slack_length = musc.getTendonSlackLength();
     
-    return speed;
+    
+    length = tendon_length - tendon_slack_length;
+    
+    return length;
 }
 
