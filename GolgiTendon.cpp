@@ -120,15 +120,18 @@ double GolgiTendon::getTendonLength(const SimTK::State& s) const
 {
     double tendon_length = 0;
     double tendon_slack_length = 0;
+    double length = 0;
     double golgiLength = 0;
+    double t_o = 1;
     
     const Muscle& musc = getMuscle();
     
+    t_o = musc.getTendonSlackLength();
     tendon_length = musc.getTendonLength(s);
     tendon_slack_length = musc.getTendonSlackLength();
-    golgiLength = tendon_length - tendon_slack_length;
+    length = tendon_length - tendon_slack_length;
     
-    
+    golgiLength = 0.5*(fabs(length) + length)/t_o;
     
     return golgiLength;
 }
